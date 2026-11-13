@@ -1,0 +1,24 @@
+# CLAUDE.md — Template de projeto
+
+## Stack
+- Frontend: [ex: Next.js 14 + Tailwind]
+- Backend: [ex: Node.js + Express]
+- Banco: [ex: PostgreSQL]
+- Deploy: [ex: Vercel]
+
+## Padrões de código
+- TypeScript strict
+- Componentes funcionais
+- Testes com Vitest
+
+## Regras de negócio
+- [regra 1]
+- [regra 2]
+
+## Comandos úteis
+- `npm run dev` — desenvolvimento
+- `npm test` — testes
+- `npm run build` — build
+
+## Decisões
+- [data] Decidimos X porque Y
