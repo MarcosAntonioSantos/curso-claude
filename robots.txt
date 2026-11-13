@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marcosantoniosantos.github.io/curso-claude/sitemap.xml

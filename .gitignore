@@ -1,0 +1,5 @@
+videos/_work_*/
+audio/_work_*/
+*.log
+.DS_Store
+Thumbs.db
