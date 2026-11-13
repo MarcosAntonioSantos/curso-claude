@@ -11,149 +11,341 @@ Olá!
 Seja muito bem-vindo ao Curso Gratuito de Claude.
 
 3
-00:00:03.825 --> 00:00:10.750
-Nas próximas quatro aulas, você vai sair do zero e chegar ao seu primeiro projeto profissional com inteligência artificial.
+00:00:03.825 --> 00:00:11.475
+Nas próximas quatro aulas, você vai sair do zero absoluto e chegar ao seu primeiro projeto profissional com inteligência artificial.
 
 4
-00:00:10.750 --> 00:00:13.887
-Eu sou sua instrutora e vou te acompanhar em cada passo.
+00:00:11.475 --> 00:00:16.612
+Eu sou sua instrutora e vou te acompanhar em cada passo, sem pressa e sem pular etapas.
 
 5
-00:00:13.887 --> 00:00:17.762
-Prepara o café, abre o navegador e vamos começar.
+00:00:16.612 --> 00:00:23.287
+Este curso foi pensado para quem nunca usou IA ou usou pouco e quer destravar de verdade.
 
 6
-00:00:18.332 --> 00:00:21.719
-Claude é a inteligência artificial criada pela Anthropic.
+00:00:23.287 --> 00:00:27.650
+Prepara o café, abre o navegador e vamos começar juntos.
 
 7
-00:00:21.669 --> 00:00:28.082
-Diferente de outros modelos, ele foi treinado com um foco muito forte em segurança, honestidade e utilidade.
+00:00:28.220 --> 00:00:31.332
+Antes de usar, é importante entender o que é o Claude.
 
 8
-00:00:28.082 --> 00:00:37.169
-Na prática, isso significa respostas mais confiáveis, menos invenções e uma conversa que parece mais com um colega experiente do que com um robô.
+00:00:31.282 --> 00:00:35.132
+Claude é uma inteligência artificial criada pela empresa Anthropic.
 
 9
-00:00:37.740 --> 00:00:42.215
-O primeiro passo é simples: acesse claude ponto ai e crie sua conta.
+00:00:35.132 --> 00:00:42.670
+Diferente de outros modelos, ele foi treinado com um foco muito forte em três coisas: segurança, honestidade e utilidade.
 
 10
-00:00:42.165 --> 00:00:44.940
-Você pode usar e-mail ou login com Google.
+00:00:42.670 --> 00:00:53.270
+Na prática, isso significa respostas mais confiáveis, menos invenções de fatos e uma conversa que parece mais com um colega experiente do que com um robô que repete frases prontas.
 
 11
-00:00:44.940 --> 00:00:49.002
-O plano gratuito já permite conversas, projetos e artefatos.
+00:00:53.270 --> 00:01:01.145
+O Claude entende português muito bem, escreve textos, analisa documentos, cria código e até monta pequenos aplicativos.
 
 12
-00:00:49.002 --> 00:00:52.815
-Mais tarde vou te mostrar quando vale a pena assinar o Pro.
+00:01:01.145 --> 00:01:05.895
+Pense nele como um assistente muito inteligente que está sempre disponível.
 
 13
-00:00:53.380 --> 00:00:54.855
-A interface é limpa.
+00:01:06.444 --> 00:01:09.956
+O primeiro passo é simples e leva menos de dois minutos.
 
 14
-00:00:54.805 --> 00:00:56.855
-No topo você escolhe o modelo.
+00:01:09.906 --> 00:01:12.719
+Abra o navegador e digite claude ponto ai.
 
 15
-00:00:56.855 --> 00:00:59.492
-Na lateral fica o histórico de conversas.
+00:01:12.719 --> 00:01:15.956
+Na tela inicial, você verá um botão para criar conta.
 
 16
-00:00:59.492 --> 00:01:02.067
-E na base, o campo onde você digita.
+00:01:15.956 --> 00:01:19.044
+Você pode usar seu e-mail ou entrar com Google.
 
 17
-00:01:02.067 --> 00:01:05.430
-Um detalhe importante: cada conversa é independente.
+00:01:19.044 --> 00:01:22.669
+Se escolher e-mail, vai receber uma mensagem de confirmação.
 
 18
-00:01:05.430 --> 00:01:10.467
-Se você mudar de assunto, abra um novo chat para não poluir o contexto.
+00:01:22.669 --> 00:01:25.869
+Clique no link do e-mail e sua conta estará ativa.
 
 19
-00:01:11.036 --> 00:01:12.623
-A chave está no prompt.
+00:01:25.869 --> 00:01:29.931
+O plano gratuito já permite conversas, projetos e artefatos.
 
 20
-00:01:12.573 --> 00:01:19.611
-Dê contexto: quem você é, o que quer, para quem é. Defina o papel do Claude: 'aja como um copywriter sênior'
+00:01:29.931 --> 00:01:37.569
+Mais tarde vou te explicar quando vale a pena assinar o plano pago, mas para este curso o gratuito é mais do que suficiente.
 
 21
-00:01:19.611 --> 00:01:23.548
-E especifique o formato: 'responda em três tópicos curtos'
+00:01:38.140 --> 00:01:40.427
+Quando você entra, vê uma tela limpa.
 
 22
-00:01:23.548 --> 00:01:26.423
-Lembre-se: a primeira resposta é um rascunho.
+00:01:40.377 --> 00:01:42.340
+Vamos entender cada parte.
 
 23
-00:01:26.423 --> 00:01:29.286
-Itere, refine, peça ajustes.
+00:01:42.340 --> 00:01:47.515
+No topo, existe um seletor de modelo, onde você escolhe qual versão do Claude usar.
 
 24
-00:01:29.844 --> 00:01:32.944
-Skills são instruções que você salva e reutiliza.
+00:01:47.515 --> 00:01:51.415
+Na lateral esquerda fica o histórico de todas as suas conversas.
 
 25
-00:01:32.894 --> 00:01:37.981
-Imagine um roteiro de atendimento, um padrão de relatório ou um estilo de escrita.
+00:01:51.415 --> 00:01:55.315
+Na base da tela está o campo onde você digita sua mensagem.
 
 26
-00:01:37.981 --> 00:01:44.406
-Em vez de repetir tudo toda vez, você cria uma skill e o Claude a aplica automaticamente quando faz sentido.
+00:01:55.315 --> 00:01:58.190
+E no topo da lateral, o botão de novo chat.
 
 27
-00:01:44.406 --> 00:01:46.569
-Isso economiza horas.
+00:01:58.190 --> 00:02:02.740
+Um detalhe muito importante para iniciantes: cada conversa é independente.
 
 28
-00:01:47.140 --> 00:01:49.527
-Projetos são pastas inteligentes.
+00:02:02.740 --> 00:02:08.402
+Se você estava falando sobre marketing e agora quer ajuda com código, abra um novo chat.
 
 29
-00:01:49.477 --> 00:01:54.652
-Dentro de um projeto, todas as conversas compartilham contexto, instruções e arquivos.
+00:02:08.402 --> 00:02:13.202
+Assim o Claude não mistura os assuntos e a resposta fica mais precisa.
 
 30
-00:01:54.652 --> 00:01:59.477
-Se você trabalha com marketing, crie um projeto 'Marketing' com a voz da marca.
+00:02:13.772 --> 00:02:18.459
+Antes de escrever, vamos esclarecer um termo que você vai ouvir muito: prompt.
 
 31
-00:01:59.477 --> 00:02:03.015
-Assim, cada nova conversa já começa alinhada.
+00:02:18.409 --> 00:02:22.534
+Prompt é simplesmente a instrução ou pergunta que você envia ao Claude.
 
 32
-00:02:03.572 --> 00:02:06.359
-Artefatos são a parte mais impressionante.
+00:02:22.534 --> 00:02:25.184
+É o que você digita no campo de mensagem.
 
 33
-00:02:06.309 --> 00:02:11.922
-O Claude cria documentos, código e até pequenos aplicativos em uma janela ao lado do chat.
+00:02:25.184 --> 00:02:33.322
+Muita gente acha que IA é mágica, mas não é: a qualidade da resposta depende diretamente da qualidade do seu prompt.
 
 34
-00:02:11.922 --> 00:02:15.547
-Você vê o resultado em tempo real e pode pedir ajustes.
+00:02:33.322 --> 00:02:36.172
+Um prompt vago gera uma resposta genérica.
 
 35
-00:02:15.547 --> 00:02:18.997
-É como ter um desenvolvedor sentado ao seu lado.
+00:02:36.172 --> 00:02:45.109
+Um prompt claro gera uma resposta útil. Pense no Claude como um profissional muito competente, mas que precisa de um briefing claro para trabalhar bem.
 
 36
-00:02:19.548 --> 00:02:20.935
-Agora é sua vez.
+00:02:45.660 --> 00:02:47.297
+Agora vamos à prática.
 
 37
-00:02:20.885 --> 00:02:31.198
-Crie a conta, faça três prompts sobre temas diferentes, gere um artefato simples, como uma lista de tarefas ou uma página HTML, e salve tudo em um projeto.
+00:02:47.247 --> 00:02:49.885
+Um bom prompt tem três ingredientes.
 
 38
-00:02:31.198 --> 00:02:35.785
-Na próxima aula, vamos automatizar processos com Cowork e Claude Code.
+00:02:49.885 --> 00:02:54.535
+Primeiro, contexto: diga quem você é, o que quer e para quem é o resultado.
 
 39
-00:02:35.785 --> 00:02:37.198
+00:02:54.535 --> 00:03:03.560
+Segundo, papel: peça para o Claude agir como um especialista, por exemplo 'aja como um copywriter sênior' ou 'aja como um professor de programação'
+
+40
+00:03:03.560 --> 00:03:11.297
+Terceiro, formato: diga como quer a resposta, como 'responda em três tópicos curtos' ou 'escreva em no máximo cem palavras'
+
+41
+00:03:11.297 --> 00:03:15.085
+Com esses três ingredientes, suas respostas melhoram muito.
+
+42
+00:03:15.085 --> 00:03:17.997
+E lembre-se: a primeira resposta é um rascunho.
+
+43
+00:03:17.997 --> 00:03:20.860
+Itere, refine, peça ajustes.
+
+44
+00:03:21.412 --> 00:03:28.412
+Vamos ver um exemplo real. Imagine que você digita: contexto, sou dono de uma padaria e quero aumentar vendas.
+
+45
+00:03:28.362 --> 00:03:31.449
+Papel, aja como um especialista em marketing.
+
+46
+00:03:31.449 --> 00:03:35.074
+Formato, dê três ideias práticas em até cem palavras.
+
+47
+00:03:35.074 --> 00:03:43.974
+O Claude responde com três ideias claras, como criar um clube de fidelidade, fazer parcerias com cafeterias e postar vídeos curtos dos bastidores.
+
+48
+00:03:43.974 --> 00:03:49.124
+Você lê, escolhe a que mais gosta e pede: 'desenvolva mais a ideia número dois'
+
+49
+00:03:49.124 --> 00:03:52.474
+Assim você vai refinando até chegar no resultado ideal.
+
+50
+00:03:52.474 --> 00:03:57.312
+A chave é não aceitar a primeira resposta como final: sempre itere.
+
+51
+00:03:57.860 --> 00:04:00.397
+Agora um conceito poderoso: Skills.
+
+52
+00:04:00.347 --> 00:04:03.447
+Skills são instruções que você salva e reutiliza.
+
+53
+00:04:03.447 --> 00:04:09.647
+Imagine que você tem um padrão de atendimento ao cliente, um estilo de escrita ou um formato de relatório.
+
+54
+00:04:09.647 --> 00:04:17.147
+Em vez de repetir tudo toda vez, você cria uma Skill com essas instruções e o Claude a aplica automaticamente quando faz sentido.
+
+55
+00:04:17.147 --> 00:04:19.310
+Isso economiza horas de trabalho.
+
+56
+00:04:19.310 --> 00:04:23.222
+Skills podem ser criadas por você ou baixadas da comunidade.
+
+57
+00:04:23.222 --> 00:04:28.197
+Para iniciantes, basta saber que elas existem e que facilitam muito a vida.
+
+58
+00:04:28.764 --> 00:04:31.414
+Projetos são como pastas inteligentes.
+
+59
+00:04:31.364 --> 00:04:36.539
+Dentro de um projeto, todas as conversas compartilham contexto, instruções e arquivos.
+
+60
+00:04:36.539 --> 00:04:45.301
+Se você trabalha com marketing, crie um projeto chamado Marketing e coloque ali a voz da marca, os públicos-alvo e os documentos de referência.
+
+61
+00:04:45.301 --> 00:04:51.664
+Assim, cada nova conversa dentro desse projeto já começa alinhada, sem você precisar repetir o briefing.
+
+62
+00:04:51.664 --> 00:04:56.764
+Para iniciantes, a dica é: crie um projeto para cada área da sua vida ou trabalho.
+
+63
+00:04:56.764 --> 00:05:00.951
+Um para estudos, um para o negócio, um para ideias pessoais.
+
+64
+00:05:01.516 --> 00:05:04.753
+Artefatos são a parte mais impressionante do Claude.
+
+65
+00:05:04.703 --> 00:05:14.491
+Quando você pede para ele criar algo, como um documento, um código ou até um pequeno aplicativo, ele abre uma janela ao lado do chat e mostra o resultado em tempo real.
+
+66
+00:05:14.491 --> 00:05:19.691
+Você vê o código sendo escrito, o documento se formando, o aplicativo funcionando.
+
+67
+00:05:19.691 --> 00:05:24.741
+E pode pedir ajustes: 'mude a cor', 'adicione um botão', 'traduza para inglês'
+
+68
+00:05:24.741 --> 00:05:29.066
+É como ter um desenvolvedor sentado ao seu lado, trabalhando na sua frente.
+
+69
+00:05:29.066 --> 00:05:34.591
+Para iniciantes, artefatos são a porta de entrada para criar sem saber programar.
+
+70
+00:05:35.156 --> 00:05:38.443
+Vamos a um exemplo prático que você pode fazer agora.
+
+71
+00:05:38.393 --> 00:05:45.518
+Digite no Claude: 'crie uma lista de tarefas simples em HTML, com campo para adicionar item e botão de remover'
+
+72
+00:05:45.518 --> 00:05:49.743
+O Claude vai gerar o código e mostrar o aplicativo funcionando ao lado.
+
+73
+00:05:49.743 --> 00:05:52.981
+Você pode clicar, adicionar tarefas e remover.
+
+74
+00:05:52.981 --> 00:05:57.281
+Depois peça: 'mude o fundo para azul escuro e o texto para branco'
+
+75
+00:05:57.281 --> 00:05:59.206
+O artefato atualiza na hora.
+
+76
+00:05:59.206 --> 00:06:03.418
+Sem saber programar, você acabou de criar um aplicativo funcional.
+
+77
+00:06:03.418 --> 00:06:06.131
+Isso é o poder dos artefatos.
+
+78
+00:06:06.684 --> 00:06:08.071
+Agora é sua vez.
+
+79
+00:06:08.021 --> 00:06:10.871
+Antes da próxima aula, faça este exercício.
+
+80
+00:06:10.871 --> 00:06:13.734
+Um: crie sua conta no claude ponto ai.
+
+81
+00:06:13.734 --> 00:06:21.934
+Dois: faça três prompts diferentes, um para texto, um para ideias e um para código, usando os três ingredientes que aprendemos.
+
+82
+00:06:21.934 --> 00:06:27.559
+Três: gere um artefato simples, como uma lista de tarefas ou uma página HTML.
+
+83
+00:06:27.559 --> 00:06:29.971
+Quatro: salve tudo em um projeto.
+
+84
+00:06:29.971 --> 00:06:32.309
+Não se preocupe em acertar de primeira.
+
+85
+00:06:32.309 --> 00:06:35.084
+O objetivo é experimentar e perder o medo.
+
+86
+00:06:35.084 --> 00:06:39.671
+Na próxima aula, vamos automatizar processos com Cowork e Claude Code.
+
+87
+00:06:39.671 --> 00:06:41.084
 Até lá!

@@ -11,141 +11,285 @@ Bem-vindo à segunda aula.
 Hoje vamos sair do chat e entrar no mundo da automação.
 
 3
-00:00:05.362 --> 00:00:09.000
-Você vai conhecer o Cowork, os Conectores e o Claude Code.
+00:00:05.362 --> 00:00:13.550
+Você vai conhecer três ferramentas que transformam o Claude em um parceiro de trabalho de verdade: o Cowork, os Conectores e o Claude Code.
 
 4
-00:00:09.000 --> 00:00:14.100
-Três ferramentas que transformam o Claude em um parceiro de trabalho de verdade.
+00:00:13.550 --> 00:00:21.412
+Se na aula anterior você aprendeu a conversar, hoje vai aprender a colocar o Claude para trabalhar por você e pela sua equipe.
 
 5
-00:00:14.660 --> 00:00:18.447
-O Cowork permite que você compartilhe projetos com sua equipe.
+00:00:21.980 --> 00:00:26.967
+O Cowork é a funcionalidade que permite compartilhar projetos com outras pessoas.
 
 6
-00:00:18.397 --> 00:00:22.722
-Todos trabalham no mesmo contexto, com os mesmos arquivos e instruções.
+00:00:26.917 --> 00:00:35.430
+Imagine que você e sua equipe trabalham no mesmo projeto: todos acessam o mesmo contexto, os mesmos arquivos e as mesmas instruções.
 
 7
-00:00:22.722 --> 00:00:25.647
+00:00:35.430 --> 00:00:38.355
 Você controla quem pode ver e quem pode editar.
 
 8
-00:00:25.647 --> 00:00:30.035
-É ideal para times de marketing, produto e desenvolvimento.
+00:00:38.355 --> 00:00:43.080
+É ideal para times de marketing, produto, desenvolvimento e atendimento.
 
 9
-00:00:30.588 --> 00:00:34.938
-Conectores são integrações que dão ao Claude acesso aos seus dados reais.
+00:00:43.080 --> 00:00:49.717
+Para iniciantes, pense no Cowork como uma pasta compartilhada, mas com a inteligência do Claude dentro.
 
 10
-00:00:34.888 --> 00:00:39.413
-Google Drive, Gmail, Calendar, Slack, Notion, GitHub.
+00:00:50.268 --> 00:00:55.543
+Exemplo prático: sua equipe de marketing cria um projeto chamado Campanha Q4.
 
 11
-00:00:39.413 --> 00:00:44.888
-Em vez de copiar e colar, o Claude lê seus documentos, e-mails e tarefas diretamente.
+00:00:55.493 --> 00:01:00.630
+Dentro dele, você coloca o briefing, a persona do cliente e o tom de voz da marca.
 
 12
-00:00:44.888 --> 00:00:50.013
-Isso muda tudo: análises, resumos e automações com dados vivos.
+00:01:00.630 --> 00:01:06.605
+Cada membro da equipe, ao abrir uma nova conversa nesse projeto, já tem tudo isso como contexto.
 
 13
-00:00:50.572 --> 00:01:00.959
-Exemplos reais: você pode pedir 'resuma os e-mails não lidos de hoje', 'crie uma tarefa no Notion a partir deste documento' ou 'liste os pull requests abertos no GitHub'
+00:01:06.605 --> 00:01:12.568
+O Claude responde de forma alinhada para todos, sem cada um precisar explicar a marca novamente.
 
 14
-00:01:00.909 --> 00:01:03.097
-O Claude executa a ação por você.
+00:01:12.568 --> 00:01:17.568
+Isso economiza horas de alinhamento e evita respostas inconsistentes.
 
 15
-00:01:03.097 --> 00:01:07.284
-É como ter um assistente que conhece todas as suas ferramentas.
+00:01:18.124 --> 00:01:22.474
+Conectores são integrações que dão ao Claude acesso aos seus dados reais.
 
 16
-00:01:07.844 --> 00:01:10.956
-O Claude Code é a ferramenta para desenvolvedores.
+00:01:22.424 --> 00:01:28.211
+Google Drive, Gmail, Calendar, Slack, Notion, GitHub e muitos outros.
 
 17
-00:01:10.906 --> 00:01:16.869
-Instalado no terminal, ele lê seu código, edita arquivos, executa comandos e roda testes.
+00:01:28.211 --> 00:01:34.449
+Em vez de copiar e colar informações, o Claude lê seus documentos, e-mails e tarefas diretamente.
 
 18
-00:01:16.869 --> 00:01:20.031
-Você descreve o que quer em português e ele implementa.
+00:01:34.449 --> 00:01:38.974
+Isso muda tudo: análises, resumos e automações com dados vivos.
 
 19
-00:01:20.031 --> 00:01:24.481
-Não é autocomplete: é um agente que trabalha no seu projeto.
+00:01:38.974 --> 00:01:46.074
+Para iniciantes, pense nos conectores como pontes entre o Claude e as ferramentas que você já usa todo dia.
 
 20
-00:01:25.044 --> 00:01:26.781
-A instalação é simples.
+00:01:46.628 --> 00:01:49.740
+Vamos a exemplos reais que você pode testar hoje.
 
 21
-00:01:26.731 --> 00:01:29.306
-Você precisa do Node.js.
+00:01:49.690 --> 00:01:56.103
+Você pode pedir: 'resuma os e-mails não lidos de hoje', e o Claude lê seu Gmail e entrega um resumo.
 
 22
-00:01:29.306 --> 00:01:33.544
-Depois, rode npm install global do pacote claude-code.
+00:01:56.103 --> 00:02:02.028
+Ou: 'crie uma tarefa no Notion a partir deste documento', e ele cria a tarefa automaticamente.
 
 23
-00:01:33.544 --> 00:01:36.206
-Por fim, autentique com sua conta Claude.
+00:02:02.028 --> 00:02:06.503
+Ou: 'liste os pull requests abertos no GitHub', e ele mostra a lista.
 
 24
-00:01:36.206 --> 00:01:40.769
-Pronto: digite claude em qualquer pasta e a conversa começa.
+00:02:06.503 --> 00:02:08.690
+O Claude executa a ação por você.
 
 25
-00:01:41.332 --> 00:01:44.507
-Comandos essenciais: barra help mostra tudo.
+00:02:08.690 --> 00:02:13.903
+É como ter um assistente que conhece todas as suas ferramentas e pode agir nelas.
 
 26
-00:01:44.457 --> 00:01:49.532
-Barra init cria o arquivo CLAUDE.md, que é a memória do seu projeto.
+00:02:14.460 --> 00:02:16.385
+Conectar é simples e seguro.
 
 27
-00:01:49.532 --> 00:01:55.807
-Depois, basta descrever a tarefa em português: 'adicione validação de e-mail no formulário de cadastro'
+00:02:16.335 --> 00:02:19.122
+Vá em Configurações, depois Conectores.
 
 28
-00:01:55.807 --> 00:01:59.182
-O Claude lê o código, planeja e implementa.
+00:02:19.122 --> 00:02:22.122
+Você verá uma lista de ferramentas disponíveis.
 
 29
-00:01:59.732 --> 00:02:04.244
-Resumindo: use o Chat para ideias, textos e análises rápidas.
+00:02:22.122 --> 00:02:25.647
+Clique em Conectar na que deseja, por exemplo Google Drive.
 
 30
-00:02:04.194 --> 00:02:09.019
-Use o Cowork quando o trabalho é de equipe e envolve documentos compartilhados.
+00:02:25.647 --> 00:02:29.597
+Uma janela de autorização do Google aparecerá pedindo permissão.
 
 31
-00:02:09.019 --> 00:02:14.119
-Use o Claude Code quando a tarefa é técnica: código, automação, refatoração.
+00:02:29.597 --> 00:02:31.072
+Autorize e pronto.
 
 32
-00:02:14.119 --> 00:02:16.344
-Os três se complementam.
+00:02:31.072 --> 00:02:33.435
+O Claude já pode ler seus arquivos.
 
 33
-00:02:16.908 --> 00:02:18.195
-Hora de praticar.
+00:02:33.435 --> 00:02:36.010
+Você pode desconectar a qualquer momento.
 
 34
-00:02:18.145 --> 00:02:23.158
-Conecte o Google Drive ao Claude e faça uma pergunta sobre seus próprios arquivos.
+00:02:36.010 --> 00:02:42.485
+Para iniciantes, comece conectando o Google Drive e faça uma pergunta sobre seus próprios arquivos.
 
 35
-00:02:23.158 --> 00:02:28.645
-Se tiver Node.js, instale o Claude Code e explore os comandos help e init.
+00:02:43.036 --> 00:02:48.686
+O Claude Code é a ferramenta para desenvolvedores e para quem quer automatizar tarefas técnicas.
 
 36
-00:02:28.645 --> 00:02:32.608
-Na próxima aula, vamos construir um projeto profissional do zero.
+00:02:48.636 --> 00:02:52.111
+É um programa que você instala no terminal do seu computador.
 
 37
-00:02:32.608 --> 00:02:34.258
+00:02:52.111 --> 00:02:58.786
+Ele lê o código do seu projeto, edita arquivos, cria novos arquivos, executa comandos e roda testes.
+
+38
+00:02:58.786 --> 00:03:01.948
+Você descreve o que quer em português e ele implementa.
+
+39
+00:03:01.948 --> 00:03:06.448
+Não é autocomplete: é um agente que trabalha no seu projeto de verdade.
+
+40
+00:03:06.448 --> 00:03:13.348
+Para iniciantes que não programam, não se preocupe: você vai entender o conceito e poderá usar quando precisar.
+
+41
+00:03:13.916 --> 00:03:15.991
+A instalação tem três passos.
+
+42
+00:03:15.941 --> 00:03:22.103
+Primeiro, instale o Node.js acessando nodejs ponto org e baixando a versão LTS.
+
+43
+00:03:22.103 --> 00:03:28.066
+Segundo, abra o terminal e rode o comando npm install global do pacote claude-code.
+
+44
+00:03:28.066 --> 00:03:31.291
+Terceiro, digite a palavra claude em qualquer pasta.
+
+45
+00:03:31.291 --> 00:03:34.641
+Ele vai pedir para você autenticar com sua conta Claude.
+
+46
+00:03:34.641 --> 00:03:36.216
+Faça o login e pronto.
+
+47
+00:03:36.216 --> 00:03:40.753
+Agora você tem um assistente de IA dentro do seu terminal.
+
+48
+00:03:40.753 --> 00:03:46.466
+Se não tiver Node.js, não tem problema: anote para instalar depois.
+
+49
+00:03:47.028 --> 00:03:51.503
+Com o Claude Code aberto, você tem comandos especiais que começam com barra.
+
+50
+00:03:51.453 --> 00:03:54.728
+Barra help mostra todos os comandos disponíveis.
+
+51
+00:03:54.728 --> 00:04:01.928
+Barra init cria o arquivo CLAUDE.md, que é a memória do seu projeto, e vamos falar dele na próxima aula.
+
+52
+00:04:01.928 --> 00:04:09.590
+Depois desses comandos, você simplesmente descreve a tarefa em português: 'adicione validação de e-mail no formulário de cadastro'
+
+53
+00:04:09.590 --> 00:04:12.365
+O Claude lê o código, planeja e implementa.
+
+54
+00:04:12.365 --> 00:04:15.803
+Você revisa e aceita ou pede ajustes.
+
+55
+00:04:16.372 --> 00:04:18.334
+Vamos a um exemplo completo.
+
+56
+00:04:18.284 --> 00:04:26.422
+Você digita: 'crie uma página HTML com um formulário de contato, com campos nome, e-mail e mensagem, e um botão de enviar'
+
+57
+00:04:26.422 --> 00:04:32.759
+O Claude planeja, cria o arquivo index.html, escreve o código e mostra o resultado.
+
+58
+00:04:32.759 --> 00:04:36.534
+Você abre o arquivo no navegador e vê o formulário funcionando.
+
+59
+00:04:36.534 --> 00:04:41.984
+Se quiser mudar algo, diga: 'mude o botão para verde e adicione validação de e-mail'
+
+60
+00:04:41.984 --> 00:04:43.284
+O Claude ajusta.
+
+61
+00:04:43.284 --> 00:04:46.772
+Tudo isso sem você escrever uma linha de código.
+
+62
+00:04:47.324 --> 00:04:48.511
+Vamos resumir.
+
+63
+00:04:48.461 --> 00:04:53.686
+Use o Chat para ideias, textos, análises rápidas e conversas do dia a dia.
+
+64
+00:04:53.686 --> 00:04:58.511
+Use o Cowork quando o trabalho é de equipe e envolve documentos compartilhados.
+
+65
+00:04:58.511 --> 00:05:05.161
+Use o Claude Code quando a tarefa é técnica: código, automação, refatoração, criação de projetos.
+
+66
+00:05:05.161 --> 00:05:06.786
+Os três se complementam.
+
+67
+00:05:06.786 --> 00:05:14.161
+Na prática, você vai usar o Chat no dia a dia, o Cowork com sua equipe e o Code quando precisar construir algo.
+
+68
+00:05:14.724 --> 00:05:16.011
+Hora de praticar.
+
+69
+00:05:15.961 --> 00:05:23.236
+Conecte o Google Drive ao Claude e faça uma pergunta sobre seus próprios arquivos, por exemplo 'resuma meu último documento'
+
+70
+00:05:23.236 --> 00:05:29.386
+Se tiver Node.js instalado, instale o Claude Code e explore os comandos help e init.
+
+71
+00:05:29.386 --> 00:05:32.236
+Se não tiver, anote para instalar depois.
+
+72
+00:05:32.236 --> 00:05:36.199
+Na próxima aula, vamos construir um projeto profissional do zero.
+
+73
+00:05:36.199 --> 00:05:37.849
 Até amanhã!

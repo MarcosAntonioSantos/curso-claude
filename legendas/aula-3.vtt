@@ -11,109 +11,285 @@ Terceira aula e a mais prática.
 Vamos construir um projeto profissional do zero usando o Claude Code.
 
 3
-00:00:06.412 --> 00:00:14.162
+00:00:06.412 --> 00:00:13.562
 Do planejamento ao deploy, você vai ver o fluxo completo de um desenvolvedor que usa IA de verdade.
 
 4
-00:00:14.732 --> 00:00:17.057
-Antes de escrever uma linha, planeje.
+00:00:13.562 --> 00:00:21.037
+Mesmo que você não seja desenvolvedor, vai entender como projetos são construídos e poderá acompanhar ou até liderar.
 
 5
-00:00:17.007 --> 00:00:21.407
-Defina o problema que resolve, o escopo mínimo viável e a stack.
+00:00:21.596 --> 00:00:24.408
+Antes de escrever uma linha de código, planeje.
 
 6
-00:00:21.407 --> 00:00:26.882
-Peça ao Claude para ajudar: 'sugira a stack ideal para um app de lista de tarefas com login'
+00:00:24.358 --> 00:00:27.071
+Defina o problema que seu projeto resolve.
 
 7
-00:00:26.882 --> 00:00:30.044
-Ele vai te dar opções com prós e contras.
+00:00:27.071 --> 00:00:32.571
+Liste as funcionalidades essenciais, o chamado MVP, ou Produto Mínimo Viável.
 
 8
-00:00:30.612 --> 00:00:33.762
-O CLAUDE.md é a memória do projeto.
+00:00:32.571 --> 00:00:35.833
+E escolha a stack, ou seja, as tecnologias.
 
 9
-00:00:33.712 --> 00:00:38.624
-Nele você registra a stack, padrões de código, regras de negócio e decisões.
+00:00:35.833 --> 00:00:39.346
+Você não precisa saber tudo: peça ao Claude para ajudar.
 
 10
-00:00:38.624 --> 00:00:41.487
-O Claude lê esse arquivo antes de cada ação.
+00:00:39.346 --> 00:00:43.946
+Digite: 'sugira a stack ideal para um app de lista de tarefas com login'
 
 11
-00:00:41.487 --> 00:00:46.887
-É como dar um manual de onboarding para um novo desenvolvedor — só que instantâneo.
+00:00:43.946 --> 00:00:46.508
+Ele vai te dar opções com prós e contras.
 
 12
-00:00:47.452 --> 00:00:56.127
-O fluxo é: você descreve a feature, o Claude planeja e implementa, você revisa o diff e aceita ou pede ajustes, depois commita.
+00:00:46.508 --> 00:00:49.571
+Para iniciantes, a dica é: comece simples.
 
 13
-00:00:56.077 --> 00:00:59.039
-Regra de ouro: nunca aceite código sem ler.
+00:00:49.571 --> 00:00:54.821
+Um projeto pequeno que funciona é melhor que um projeto grande que nunca fica pronto.
 
 14
-00:00:59.039 --> 00:01:03.727
-A IA acelera, mas a responsabilidade é sua.
+00:00:55.380 --> 00:00:57.330
+Vamos a um exemplo concreto.
 
 15
-00:01:04.292 --> 00:01:06.367
-Peça testes junto com o código.
+00:00:57.280 --> 00:01:00.455
+Projeto: um app de lista de tarefas com login.
 
 16
-00:01:06.317 --> 00:01:09.404
-Implemente a função e escreva testes unitários'
+00:01:00.455 --> 00:01:06.867
+MVP: cadastro de usuário, login, criar tarefa, editar tarefa, excluir tarefa.
 
 17
-00:01:09.404 --> 00:01:13.529
-O Claude Code roda os testes e corrige falhas automaticamente.
+00:01:06.867 --> 00:01:15.017
+Stack sugerida pelo Claude: HTML, CSS e JavaScript puro, com dados salvos no localStorage do navegador.
 
 18
-00:01:13.529 --> 00:01:18.954
-Isso cria uma rede de segurança: mudanças futuras não quebram o que já funciona.
+00:01:15.017 --> 00:01:17.955
+Simples, sem banco de dados, sem servidor.
 
 19
-00:01:19.524 --> 00:01:25.386
-Use branches por feature, commits pequenos e descritivos, e pull requests com descrição clara.
+00:01:17.955 --> 00:01:19.555
+Perfeito para começar.
 
 20
-00:01:25.336 --> 00:01:30.224
-O Claude Code ajuda a escrever mensagens de commit e a descrever PRs.
+00:01:19.555 --> 00:01:24.242
+Você descreve isso ao Claude Code e ele implementa passo a passo.
 
 21
-00:01:30.224 --> 00:01:33.786
-Isso mantém o histórico limpo e facilita revisão.
+00:01:24.796 --> 00:01:30.658
+O CLAUDE.md é o arquivo mais importante do seu projeto quando você usa Claude Code.
 
 22
-00:01:34.348 --> 00:01:37.910
-Para colocar no ar, use Vercel, Netlify ou Railway.
+00:01:30.608 --> 00:01:37.983
+É um arquivo de texto onde você registra a stack, os padrões de código, as regras de negócio e as decisões tomadas.
 
 23
-00:01:37.860 --> 00:01:41.398
-Configure as variáveis de ambiente e ative o CI/CD.
+00:01:37.983 --> 00:01:43.646
+O Claude lê esse arquivo antes de cada ação, como um manual de onboarding para um novo desenvolvedor.
 
 24
-00:01:41.398 --> 00:01:46.948
-O Claude Code pode gerar o arquivo de configuração e o workflow do GitHub Actions.
+00:01:43.646 --> 00:01:46.408
+A diferença é que esse onboarding é instantâneo.
 
 25
-00:01:46.948 --> 00:01:52.185
-Em minutos, seu projeto está online com deploy automático a cada push.
+00:01:46.408 --> 00:01:51.346
+Sem o CLAUDE.md, o Claude pode tomar decisões inconsistentes.
 
 26
-00:01:52.748 --> 00:01:59.960
-Prática: crie um projeto novo, escreva o CLAUDE.md, implemente uma feature com testes e faça o commit.
+00:01:51.346 --> 00:01:54.683
+Com ele, o Claude trabalha alinhado com você.
 
 27
-00:01:59.910 --> 00:02:02.873
-Se conseguir, faça o push para o GitHub.
+00:01:55.244 --> 00:01:56.844
+Veja um exemplo real.
 
 28
-00:02:02.873 --> 00:02:05.748
-Na última aula, vamos transformar isso em renda.
+00:01:56.794 --> 00:02:01.094
+O arquivo tem seções: Stack, onde você lista as tecnologias.
 
 29
-00:02:05.748 --> 00:02:07.398
+00:02:01.094 --> 00:02:06.081
+Padrões de código, como 'use TypeScript strict' e 'componentes funcionais'
+
+30
+00:02:06.081 --> 00:02:10.694
+Regras de negócio, como 'usuário precisa estar logado para criar tarefa'
+
+31
+00:02:10.694 --> 00:02:16.794
+Comandos úteis, como 'npm run dev' para desenvolvimento e 'npm test' para testes.
+
+32
+00:02:16.794 --> 00:02:23.994
+E uma seção de decisões, onde você anota por que escolheu X em vez de Y. Mantenha esse arquivo atualizado.
+
+33
+00:02:23.994 --> 00:02:26.469
+É a memória do seu projeto.
+
+34
+00:02:27.036 --> 00:02:29.561
+O fluxo de trabalho tem quatro passos.
+
+35
+00:02:29.511 --> 00:02:35.286
+Primeiro, você descreve a feature em português: 'crie a tela de login com campos e-mail e senha'
+
+36
+00:02:35.286 --> 00:02:39.773
+Segundo, o Claude planeja e implementa, criando ou editando arquivos.
+
+37
+00:02:39.773 --> 00:02:44.586
+Terceiro, você revisa o diff, ou seja, as mudanças, antes de aceitar.
+
+38
+00:02:44.586 --> 00:02:47.836
+Quarto, você faz o commit com uma mensagem clara.
+
+39
+00:02:47.836 --> 00:02:50.848
+A regra de ouro: nunca aceite código sem ler.
+
+40
+00:02:50.848 --> 00:02:55.486
+A IA acelera muito, mas a responsabilidade é sua.
+
+41
+00:02:55.486 --> 00:02:58.986
+Se algo der errado, é você quem vai corrigir.
+
+42
+00:02:59.548 --> 00:03:01.548
+Vamos ver o fluxo na prática.
+
+43
+00:03:01.498 --> 00:03:06.485
+Você digita: 'crie a tela de login com campos e-mail e senha e um botão Entrar'
+
+44
+00:03:06.485 --> 00:03:12.673
+O Claude cria os arquivos login.html e login.css e mostra o resultado.
+
+45
+00:03:12.673 --> 00:03:17.323
+Você abre no navegador, vê a tela e decide: 'faltou validação de e-mail'
+
+46
+00:03:17.323 --> 00:03:20.748
+Você diz: 'adicione validação de e-mail no campo'
+
+47
+00:03:20.748 --> 00:03:22.048
+O Claude ajusta.
+
+48
+00:03:22.048 --> 00:03:27.523
+Você revisa novamente, aprova e faz o commit com a mensagem 'adiciona tela de login'
+
+49
+00:03:27.523 --> 00:03:28.260
+Pronto.
+
+50
+00:03:28.260 --> 00:03:31.335
+Feature implementada com revisão humana.
+
+51
+00:03:31.892 --> 00:03:34.017
+Testes são sua rede de segurança.
+
+52
+00:03:33.967 --> 00:03:36.529
+Sempre peça testes junto com o código.
+
+53
+00:03:36.529 --> 00:03:41.442
+Digite: 'implemente a função de validar e-mail e escreva testes unitários'
+
+54
+00:03:41.442 --> 00:03:47.317
+O Claude Code escreve a função e os testes, roda os testes e corrige falhas automaticamente.
+
+55
+00:03:47.317 --> 00:03:52.142
+Isso cria uma rede de segurança: mudanças futuras não quebram o que já funciona.
+
+56
+00:03:52.142 --> 00:03:56.842
+Para iniciantes, a dica é: mesmo que você não entenda de testes, peça-os.
+
+57
+00:03:56.842 --> 00:03:59.954
+O Claude explica o que cada teste faz.
+
+58
+00:04:00.516 --> 00:04:03.041
+Use Git para versionar seu código.
+
+59
+00:04:02.991 --> 00:04:08.316
+Crie branches por feature, ou seja, uma ramificação para cada funcionalidade nova.
+
+60
+00:04:08.316 --> 00:04:13.928
+Faça commits pequenos e descritivos, como 'adiciona tela de login' em vez de 'mudanças'
+
+61
+00:04:13.928 --> 00:04:17.841
+E abra pull requests com descrição clara quando trabalhar em equipe.
+
+62
+00:04:17.841 --> 00:04:22.728
+O Claude Code ajuda a escrever mensagens de commit e a descrever pull requests.
+
+63
+00:04:22.728 --> 00:04:26.328
+Isso mantém o histórico limpo e facilita a revisão.
+
+64
+00:04:26.884 --> 00:04:32.259
+Para colocar seu projeto no ar, use plataformas como Vercel, Netlify ou Railway.
+
+65
+00:04:32.209 --> 00:04:34.946
+Elas são gratuitas para projetos pequenos.
+
+66
+00:04:34.946 --> 00:04:43.309
+Configure as variáveis de ambiente, como chaves de API, e ative o CI/CD, que é o deploy automático a cada push no GitHub.
+
+67
+00:04:43.309 --> 00:04:48.859
+O Claude Code pode gerar o arquivo de configuração e o workflow do GitHub Actions.
+
+68
+00:04:48.859 --> 00:04:52.909
+Em minutos, seu projeto está online com uma URL pública.
+
+69
+00:04:52.909 --> 00:04:58.934
+Para iniciantes, comece com o Netlify: é o mais simples, basta arrastar a pasta do projeto.
+
+70
+00:04:59.492 --> 00:05:10.079
+Prática: crie um projeto novo no seu computador, escreva o CLAUDE.md com a stack e as regras, implemente uma feature com testes usando o Claude Code e faça o commit.
+
+71
+00:05:10.079 --> 00:05:14.354
+Se conseguir, faça o push para o GitHub e publique no Netlify.
+
+72
+00:05:14.354 --> 00:05:17.229
+Na última aula, vamos transformar isso em renda.
+
+73
+00:05:17.229 --> 00:05:18.879
 Até amanhã!
